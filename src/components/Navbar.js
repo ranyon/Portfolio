@@ -1,6 +1,9 @@
 import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import 'bootstrap/dist/css/bootstrap.css';
+import { Navbar, Nav } from 'react-bootstrap';
+import {Link} from 'react-scroll';
+
+
 
 
 
@@ -8,15 +11,15 @@ export const NavBar = () =>{
 
     
     return(
-        <Navbar  expand="lg" className={scrolled ? "scrolled": ""}>
+        <Navbar  expand="lg">
         <Container>
-          <Navbar.Brand href="#home">Portfolio</Navbar.Brand>
+          <Navbar.Brand href="home">Portfolio</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#skills">Skills</Nav.Link>
-              <Nav.Link href="#project">Project</Nav.Link>
+            <Nav className='ml-auto'>
+              <Nav.Link href="home">Home</Nav.Link>
+              <Nav.Link href="skills">Skills</Nav.Link>
+              <Nav.Link href="project">Projectt</Nav.Link>
             </Nav>
     
           </Navbar.Collapse>
