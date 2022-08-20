@@ -1,10 +1,10 @@
 import React from 'react'
 import './Projects.css'
 
-const Projects =() => {
+const Projects =({forwardedRef}) => {
   return (
-    <div>
-    <div className="ProjectsContainer" id='projects'>
+    <div id='projects'>
+    <div className="ProjectsContainer" >
       <h3>Projects</h3>
       <p className="Projects-paragraph">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
