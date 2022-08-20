@@ -1,10 +1,11 @@
 import React from 'react'
 import './Home.css'
 
+
 const Home =() => {
   return (
-    <div>
-    <div className="HomeContainer" id='home'>
+    <div id='home'>
+    <div className="HomeContainer" >
       <h3>Home</h3>
       <p className="Home-paragraph">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
