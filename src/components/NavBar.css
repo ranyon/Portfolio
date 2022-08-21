@@ -1,0 +1,9 @@
+.navbar-active{
+    background-color: rgb(245, 228, 252);
+}
+
+
+.ml-auto{
+    margin-left: auto;
+    padding: 20px;
+  }
