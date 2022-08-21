@@ -1,62 +1,20 @@
 import React from 'react'
 import './Home.css'
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
 
 
 const Home =() => {
   return (
     <div id='home'>
     <div className="HomeContainer" >
-      <h3>Home</h3>
-      <p className="Home-paragraph">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
-        inventore harum dignissimos error perspiciatis commodi facilis sed
-        architecto cumque quasi.
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
-        inventore harum dignissimos error perspiciatis commodi facilis sed
-        architecto cumque quasi.
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
-        inventore harum dignissimos error perspiciatis commodi facilis sed
-        architecto cumque quasi.
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
-        inventore harum dignissimos error perspiciatis commodi facilis sed
-        architecto cumque quasi.
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
-        inventore harum dignissimos error perspiciatis commodi facilis sed
-        architecto cumque quasi.
-        inventore harum dignissimos error perspiciatis commodi facilis sed
-        architecto cumque quasi.
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
-        inventore harum dignissimos error perspiciatis commodi facilis sed
-        architecto cumque quasi.
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
-        inventore harum dignissimos error perspiciatis commodi facilis sed
-        architecto cumque quasi.
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
-        inventore harum dignissimos error perspiciatis commodi facilis sed
-        architecto cumque quasi.
-        inventore harum dignissimos error perspiciatis commodi facilis sed
-        architecto cumque quasi.
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
-        inventore harum dignissimos error perspiciatis commodi facilis sed
-        architecto cumque quasi.
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
-        inventore harum dignissimos error perspiciatis commodi facilis sed
-        architecto cumque quasi.
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
-        inventore harum dignissimos error perspiciatis commodi facilis sed
-        architecto cumque quasi.
-        inventore harum dignissimos error perspiciatis commodi facilis sed
-        architecto cumque quasi.
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
-        inventore harum dignissimos error perspiciatis commodi facilis sed
-        architecto cumque quasi.
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
-        inventore harum dignissimos error perspiciatis commodi facilis sed
-        architecto cumque quasi.
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
-        inventore harum dignissimos error perspiciatis commodi facilis sed
-        architecto cumque quasi.
-      </p>
+      <Container>
+        <Row>
+          <Col>1</Col>
+          <Col>1</Col>
+        </Row>
+      </Container>
     </div>
   </div>
   )
