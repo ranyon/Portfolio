@@ -11,25 +11,11 @@ const Skills =() => {
       <Container>
         <Row>
           <Col>
+          <div className='skillLogo'>
+          <div className='skillName'></div>
+          </div>
           
-          <h1>Skills</h1>
-          <p className="skill-paragraph">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
-            inventore harum dignissimos error perspiciatis commodi facilis sed
-            architecto cumque quasi.
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
-            inventore harum dignissimos error perspiciatis commodi facilis sed
-            architecto cumque quasi.
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
-            inventore harum dignissimos error perspiciatis commodi facilis sed
-            architecto cumque quasi.
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
-            inventore harum dignissimos error perspiciatis commodi facilis sed
-            architecto cumque quasi.
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
-            inventore harum dignissimos error perspiciatis commodi facilis sed
-            architecto cumque quasi.
-          </p>
+        
           </Col>
         </Row>
       </Container>
