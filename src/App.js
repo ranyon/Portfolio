@@ -7,8 +7,7 @@ import Projects from './components/pages/ProjectPage/Projects'
 import { useRef ,useEffect} from 'react';
 
 function App(props) {
-    
-
+  
      const skills=[
       {skillLogo:'HTML',skillName:'html'},
       {skillLogo:'CSS',skillName:'css'},
@@ -16,9 +15,6 @@ function App(props) {
       {skillLogo:'REACT',skillName:'react'},
       {skillLogo:'REACT-NATIVE',skillName:'react-native'}
      ]
-
-
-
 
 
   return (
