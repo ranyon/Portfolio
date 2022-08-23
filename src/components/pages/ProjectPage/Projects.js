@@ -1,7 +1,7 @@
 import React from 'react'
 import './Projects.css'
 
-const Projects =({forwardedRef}) => {
+const Projects =() => {
   return (
     <div id='projects'>
     <div className="ProjectsContainer" >
