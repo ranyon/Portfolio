@@ -1,23 +1,34 @@
 import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 import { NavBar } from './components/Navbar';
 import Home from './components/pages/HomePage/Home';
 import Skills from './components/pages/SkillsPage/Skills';
 import Projects from './components/pages/ProjectPage/Projects'
 import { useRef ,useEffect} from 'react';
 
-function App() {
-     const projects = useRef(null)
+function App(props) {
+    
 
-     useEffect(()=>{
-      console.log(projects.current,App.js)
-     }, [])
+     const skills=[
+      {skillLogo:'HTML',skillName:'html'},
+      {skillLogo:'CSS',skillName:'css'},
+      {skillLogo:'JAVASCRIPT',skillName:'js'},
+      {skillLogo:'REACT',skillName:'react'},
+      {skillLogo:'REACT-NATIVE',skillName:'react-native'}
+     ]
+
+
+
+
+
   return (
     <div className="">
-      <NavBar forwardedRef={projects}/>
+      <NavBar />
       <Home  />
-      <Skills />
-      <Projects forwardedRef={projects} />
+      {skills.map((skill)=>(
+        <Skills skillLogo={skill.skillLogo} skillName={skill.skillName}/>
+      ))}
+      <Projects  />
       
       
     </div>
