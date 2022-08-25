@@ -60,10 +60,12 @@ const Skills = ({ skillLogo, skillName }) => {
         <Row>
           <Col>
         
+            <h3>Skills</h3>
             <Slider {...settings} >
               {skillData.map((item) =>(
-                <div>
+                <div className="slider">
                   <div>
+                    
                     <h3>{item.skillLogo}</h3>
                     <p>{item.skillName} </p>
                   </div>
