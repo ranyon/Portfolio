@@ -1,10 +1,14 @@
 .SkillContainer{
-    background-color: aqua;
+    text-align: center;
+    background: rgb(238, 223, 233);
+    border-radius: 50px;
     height: 100vh;
+    padding-top: 60px;
     
     
     
 }
 .slider{
+    text-align: center;
     padding-top: 100px;
 }
