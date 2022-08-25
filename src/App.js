@@ -21,9 +21,7 @@ function App(props) {
     <div className="">
       <NavBar />
       <Home  />
-      {skills.map((skill)=>(
-        <Skills skillLogo={skill.skillLogo} skillName={skill.skillName}/>
-      ))}
+      <Skills/>
       <Projects  />
       
       
