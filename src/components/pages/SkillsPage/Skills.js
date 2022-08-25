@@ -1,5 +1,5 @@
 import React from "react";
-import "./Skills.css";
+import './Skills.css' 
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
@@ -22,7 +22,10 @@ const Skills = ({ skillLogo, skillName }) => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    autoplay:true,
+    autoplaySpeed:5000,
+    cssEase:'linear',
+    speed: 900,
     slidesToShow: 4,
     slidesToScroll: 4,
     initialSlide: 0,
@@ -55,25 +58,24 @@ const Skills = ({ skillLogo, skillName }) => {
   };
 
   return (
-    <div id="skills" className='SkillContainer'>
+    <div id="skills" >
       <Container>
         <Row>
           <Col>
         
-            <h3>Skills</h3>
-            <Slider {...settings} >
-              {skillData.map((item) =>(
-                <div className="slider">
-                  <div>
-                    
-                    <h3>{item.skillLogo}</h3>
-                    <p>{item.skillName} </p>
-                  </div>
-                </div>
+              <div className="SkillContainer">
+                  <h3>Skills</h3>
+                <Slider {...settings} >
+                    {skillData.map((item) =>(
+                        <div className="slider">
+                          <h3>{item.skillLogo}</h3>
+                          <p>{item.skillName} </p>
+                        </div>
 
-              ))}
-          
-          </Slider>
+                    ))}
+                
+                </Slider>
+              </div> 
           
           </Col>
         </Row>
