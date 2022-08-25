@@ -1,9 +1,11 @@
 .ProjectsContainer{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 20px;
     margin-left: 25px;
     margin-right: 25px;
     height: 100vh;
+    /* background-color: black; */
+    padding-top: 100px;
    
 }
 
@@ -11,3 +13,4 @@
     margin-left: 20px;
     margin-right: 20px;
 }
+
