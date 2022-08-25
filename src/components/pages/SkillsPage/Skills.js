@@ -6,6 +6,7 @@ import Container from "react-bootstrap/Container";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { skillData } from "./skillData";
 
 const Skills = ({ skillLogo, skillName }) => {
   const skills=[
@@ -20,7 +21,7 @@ const Skills = ({ skillLogo, skillName }) => {
 
   const settings = {
     dots: true,
-    infinite: false,
+    infinite: true,
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 4,
@@ -58,14 +59,20 @@ const Skills = ({ skillLogo, skillName }) => {
       <Container>
         <Row>
           <Col>
-         {
-          skills.map((skill) =>(
-            <div skillLogo={skill.skillLogo} skillName={skill.skillName}>
-              <h1>{skillLogo}</h1>
-              <p>{skillName}</p>
-            </div>
-          ))
-         }
+        
+            <Slider {...settings} >
+              {skillData.map((item) =>(
+                <div>
+                  <div>
+                    <h3>{item.skillLogo}</h3>
+                    <p>{item.skillName} </p>
+                  </div>
+                </div>
+
+              ))}
+          
+          </Slider>
+          
           </Col>
         </Row>
       </Container>
