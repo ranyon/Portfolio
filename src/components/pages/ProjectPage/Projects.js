@@ -5,7 +5,7 @@ const Projects =() => {
   return (
     <div id='projects'>
     <div className="ProjectsContainer" >
-      <h3>Projects</h3>
+      <h3 className='project-header'>Projects</h3>
       <p className="Projects-paragraph">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem
         inventore harum dignissimos error perspiciatis commodi facilis sed
