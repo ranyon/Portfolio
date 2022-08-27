@@ -2,8 +2,9 @@
     text-align: center;
     background: rgb(238, 223, 233);
     border-radius: 50px;
-    height: 100vh;
-    padding-top: 60px;
+    height: 60vh;
+    padding-top: 90px;
+    
     
     
     
@@ -12,3 +13,5 @@
     text-align: center;
     padding-top: 100px;
 }
+
+
