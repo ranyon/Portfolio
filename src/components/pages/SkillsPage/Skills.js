@@ -58,7 +58,7 @@ const Skills = ({ skillLogo, skillName }) => {
   };
 
   return (
-    <div id="skills" >
+    <div  className='main-container'id="skills" >
       <Container>
         <Row>
           <Col>
